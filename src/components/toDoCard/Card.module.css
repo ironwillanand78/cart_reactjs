@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px slategrey;
+    margin: 100px auto;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.checkbtn{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: salmon;
+}
